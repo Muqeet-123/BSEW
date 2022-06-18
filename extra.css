@@ -1,0 +1,20 @@
+.dir-vis{
+		background: #2c3e50;
+	background: -webkit-linear-gradient(to
+	left, #2c3e50 , #fd746c);
+	background:  linear-gradient(to
+	left, #2c3e50 , #fd746c);
+
+	
+}
+
+.dir-btn{
+	position: absolute;
+	top: 20px;
+	right: 100px;
+	height: 20;
+	width: 100px;
+	color:  black;
+	border-radius: 10px;
+	background-color: wheat;
+}

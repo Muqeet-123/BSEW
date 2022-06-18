@@ -1,0 +1,639 @@
+.acccreate{
+	position: absolute;
+	top: 670px;
+	left: 600px;
+	color: blue;
+}
+.align8{
+	position: absolute;
+	top: 450px;
+	left: 140px;
+}
+.align{
+	position: absolute;
+	top: 100px;
+	left: 80px; 
+	color: #ff0368;
+}
+.align2{
+	position: absolute;
+	top: 150px;
+	left: 140px;
+}
+.align3{
+	position: absolute;
+	top: 200px;
+	left: 80px;
+	color: #ff0368;
+}
+.align4{
+	position: absolute;
+	top: 250px;
+	left: 140px;
+}
+.align5{
+	position: absolute;
+	top:  300px;
+	left: 80px;
+	color: #ff0368;
+}
+.align6{
+	position: absolute;
+	top: 350px;
+	left: 140px;
+}
+.align7{
+    width: 150px;
+    height: 50px;
+	border: none;
+    outline: none;
+    background: #111;
+	color: #ff0368;
+    cursor: pointer;
+    position:  absolute;
+	top: 90%;
+	left: 5%;
+    z-index: 0;
+    border-radius: 20px;
+}
+.button{
+    width: 150px;
+    height: 50px;
+	border: none;
+    outline: none;
+    background: #111;
+	color: white;
+    cursor: pointer;
+    position: absolute;
+	top: 90%;
+	left: 50%;
+    z-index: 0;
+    border-radius: 20px;
+}
+
+.button:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.button:active {
+    color: #000
+}
+
+.button:active:after {
+    background: transparent;
+}
+
+.button:hover:before {
+    opacity: 1;
+}
+
+.button:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+ @keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+.return{
+	position: absolute;
+	top: 1930px;
+	left: 1150px;
+	padding: 10px;
+	background-color: black;
+	opacity: .7;
+}
+ .loginbackground{
+	margin: 20px;
+	padding: 150px;
+	background-color: grey;
+	opacity: .7;
+	position: absolute;
+	top: 130px;
+	left: 550px;
+	height: 250px;
+	width: 100px;
+	font-family: cursive;
+}
+.logo23{
+	position: absolute;
+	top: 110px;
+	left:  700px;
+	border: 3px;
+	border-radius: 50%;
+}
+ .align9{
+	position: absolute;
+	top: 400px;
+	left: 80px;
+	 
+	color: #ff0368;
+ }
+ 
+ .signup{
+    width: 180px;
+    height: 50px;
+	border: none;
+    outline: none;
+    background: #111;
+	color: white;
+    cursor: pointer;
+    position: absolute;
+	top: 50%;
+	left: 70%;
+    z-index: 0;
+    border-radius: 20px;
+}
+
+.signup:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.signup:active {
+    color: #000
+}
+
+.signup:active:after {
+    background: transparent;
+}
+
+.signup:hover:before {
+    opacity: 1;
+}
+
+.signup:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+ @keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+ .dir1{
+	 position: absolute;
+	 top: 150px;
+	 left: 23%;
+	 color:  white;
+ }
+ .dir2{
+	 position: absolute;
+	 top: 200px;
+	 left: 25%;
+ }
+ .dir3{
+    width: 180px;
+    height: 50px;
+	border: none;
+    outline: none;
+    background-color:  black;
+	color: white;
+    cursor: pointer;
+    position: absolute;
+	top: 350;
+	left: 200;
+    z-index: 0;
+    border-radius: 20px;
+}
+
+.dir3:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.dir3:active {
+    color: #000
+}
+
+.dir3:active:after {
+    background: transparent;
+}
+
+.dir3:hover:before {
+    opacity: 1;
+}
+
+.dir3:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+ @keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+.dir4{
+    width: 180px;
+    height: 50px;
+	border: none;
+    outline: none;
+    background: black;
+	color: white;
+    cursor: pointer;
+    position: absolute;
+	top: 65%;
+	left: 10;
+    z-index: 0;
+    border-radius: 20px;
+}
+
+  
+ .dir5{
+	 position: absolute;
+	 top: 250px;
+	 left: 23%;
+	 color: white;
+ }
+ .dir6{
+	 position: absolute;
+	 top: 300px;
+	 left: 23%;
+ }
+ 
+
+ .ff{
+	 padding: 70px;
+	 background-color: grey;
+	 opacity: .6;
+	 width: 250px;
+	 height: 400px;
+	 position: absolute;
+	 top: 150px;
+	 left:  30%;
+	 text-align: center;
+ }
+ .qwesd{
+	 position: absolute;
+	 top: 60px;
+	 left: 23%;
+	 color: #ff0368;
+	 font-family: cursive;
+	  text-decoration: underline;
+	 
+ }
+ .mini{
+	 position: absolute;
+	 top: 120px;
+	 left: 38%;
+	 border-radius: 50%;
+	 
+ }
+.signin{
+    width: 180px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: #111;
+	color: white;
+    cursor: pointer;
+    position: absolute;
+	top: 60%;
+	left: 70%;
+    z-index: 0;
+    border-radius: 20px;
+}
+
+.signin:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.signin:active {
+    color: #000
+}
+
+.signin:active:after {
+    background: transparent;
+}
+
+.signin:hover:before {
+    opacity: 1;
+}
+
+.signin:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+ @keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+.dir-info{
+	position: absolute;
+	top: 35%;
+	left: 65%;
+	color: #ff0368;
+	text-align: center;
+	font-weight: bold;
+	font-family: cursive;
+	padding: 10px;
+	background-color:  black;
+	opacity: .8;
+	height: 65;
+	text-decoration: underline;
+}
+
+
+
+.dir-btn-gui1{
+	
+    width: 180px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: #111;
+	color: white;
+    cursor: pointer;
+    position: absolute;
+	top: 40%;
+	left: 70%;
+    z-index: 0;
+    border-radius: 20px;
+}
+
+.dir-btn-gui1:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.dir-btn-gui1:active {
+    color: #000
+}
+
+.dir-btn-gui1:active:after {
+    background: transparent;
+}
+
+.dir-btn-gui1:hover:before {
+    opacity: 1;
+}
+
+.dir-btn-gui1:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+ @keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+.cacc-clr,
+.body-clr{
+    background: #2c3e50;
+	background: -webkit-linear-gradient(to
+	left, #2c3e50 , #fd746c);
+	background:  linear-gradient(to
+	left, #2c3e50 , #fd746c);
+	
+} 
+
+.crt-btn-gui3{
+    width: 180px;
+    height: 50px;
+	border: none;
+    outline: none;
+    background-color: grey;
+    cursor: pointer;
+    position: absolute;
+	top: 165;
+	left: 16.5%;
+    z-index: 0;
+    border-radius: 20px;
+}
+
+.crt-btn-gui3:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.crt-btn-gui3:active {
+    color: #000
+}
+
+.crt-btn-gui3:active:after {
+    background: transparent;
+}
+
+.crt-btn-gui3:hover:before {
+    opacity: 1;
+}
+
+.crt-btn-gui3:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+ @keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+
+.up-btn-in{
+    width: 180px;
+    height: 50px;
+	border: none;
+    outline: none;
+    background-color:  black;
+    cursor: pointer;
+    position: absolute;
+	top: 100;
+	left: 250;
+    z-index: 0;
+    border-radius: 20px;
+}
+
+.up-btn-in:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.up-btn-in:active {
+    color: #000
+}
+
+.up-btn-in:active:after {
+    background: transparent;
+}
+
+.up-btn-in:hover:before {
+    opacity: 1;
+}
+
+.up-btn-in:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+ @keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
